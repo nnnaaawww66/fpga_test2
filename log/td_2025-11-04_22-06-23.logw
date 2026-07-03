@@ -1,0 +1,16 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/bin/td.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     Administrator
+   Run Date =   Tue Nov  4 22:06:23 2025
+
+   Run on =     WIN-Q53DTRAEVVV
+============================================================
+PRJ-5303 WARNING: Run syn_1 failed.
+PRJ-5303 WARNING: Run syn_1 failed.
+GUI-5001 WARNING: Failed to copy the targe file(C:/Users/Administrator/Desktop/HX4S20_Contest_2025_9/8_lab_ex_2025_nosoft/HXEG420C_lab_ex_TD6.2.1/HXEG420_lab_ex/lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/TEMAC_CORE.v), because a file with the same name already exists in the project directory.Please rename and try again.
+PRJ-8403 ERROR: File(C:/Users/Administrator/Desktop/q3v3 _34source/import/TEMAC_CORE.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: C:/Users/Administrator/Desktop/HX4S20_Contest_2025_9/8_lab_ex_2025_nosoft/HXEG420C_lab_ex_TD6.2.1/HXEG420_lab_ex/lab_ex_4_tf_sdram_etnernet_pc/UDP_EG4_6.2/prj/UDP_EXAMPLE/al_ip/TEMAC_CORE/TEMAC_CORE.v
+PRJ-5303 WARNING: Run syn_1 failed.

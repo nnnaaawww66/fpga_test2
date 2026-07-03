@@ -1,0 +1,45 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = C:/Anlogic/TD/bin/td.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     xvhao
+   Run Date =   Fri Oct 17 01:35:28 2025
+
+   Run on =     XU
+============================================================
+USR-8001 ERROR: Design contains multiple IOSTANDARD setups on bank 3.
+GUI-8405 ERROR: clk is not the signal of the project.
+GUI-8405 ERROR: phy1_rgmii_rx_clk is not the signal of the project.
+GUI-8405 ERROR: phy1_rgmii_rx_ctl is not the signal of the project.
+GUI-8405 ERROR: phy1_rgmii_rx_data[0] is not the signal of the project.
+GUI-8405 ERROR: phy1_rgmii_rx_data[1] is not the signal of the project.
+GUI-8405 ERROR: phy1_rgmii_rx_data[2] is not the signal of the project.
+GUI-8405 ERROR: phy1_rgmii_rx_data[3] is not the signal of the project.
+GUI-8405 ERROR: phy1_rgmii_tx_clk is not the signal of the project.
+GUI-8405 ERROR: phy1_rgmii_tx_ctl is not the signal of the project.
+GUI-8405 ERROR: phy1_rgmii_tx_data[0] is not the signal of the project.
+GUI-8405 ERROR: phy1_rgmii_tx_data[1] is not the signal of the project.
+GUI-8405 ERROR: phy1_rgmii_tx_data[2] is not the signal of the project.
+GUI-8405 ERROR: phy1_rgmii_tx_data[3] is not the signal of the project.
+GUI-8405 ERROR: rst_n is not the signal of the project.
+GUI-8405 ERROR: sdram_clk is not the signal of the project.
+GUI-8405 ERROR: key1 is not the signal of the project.
+GUI-8405 ERROR: sd_dclk is not the signal of the project.
+GUI-8405 ERROR: sd_miso is not the signal of the project.
+GUI-8405 ERROR: sd_mosi is not the signal of the project.
+GUI-8405 ERROR: sd_ncs is not the signal of the project.
+GUI-8405 ERROR: seg_data[0] is not the signal of the project.
+GUI-8405 ERROR: seg_data[1] is not the signal of the project.
+GUI-8405 ERROR: seg_data[2] is not the signal of the project.
+GUI-8405 ERROR: seg_data[3] is not the signal of the project.
+GUI-8405 ERROR: seg_data[4] is not the signal of the project.
+GUI-8405 ERROR: seg_data[5] is not the signal of the project.
+GUI-8405 ERROR: seg_data[6] is not the signal of the project.
+GUI-8405 ERROR: seg_data[7] is not the signal of the project.
+GUI-8405 ERROR: seg_sel[0] is not the signal of the project.
+GUI-8405 ERROR: seg_sel[1] is not the signal of the project.
+GUI-8405 ERROR: seg_sel[2] is not the signal of the project.
+GUI-8405 ERROR: seg_sel[3] is not the signal of the project.
+GUI-8405 ERROR: seg_sel[4] is not the signal of the project.
+GUI-8405 ERROR: seg_sel[5] is not the signal of the project.

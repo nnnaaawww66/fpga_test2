@@ -1,0 +1,110 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/Anlogic/TD_6.2.1_Engineer/bin/run.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     nnnaaawww
+   Run Date =   Fri Jul  3 11:46:10 2026
+
+   Run on =     DESKTOPNNNAAAWW
+============================================================
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../src/sdram/enc_file/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../src/sdram/enc_file/sdr_init_ref.enc.v(47)
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(49)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(50)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(51)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(52)
+HDL-5370 WARNING: parameter 'QUEUE_SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(62)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(63)
+HDL-5370 WARNING: parameter 'END_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(64)
+HDL-5370 WARNING: parameter 'GF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(65)
+HDL-5370 WARNING: parameter 'BF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(66)
+HDL-5370 WARNING: parameter 'OVFLOW_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../import/rx_client_fifo.v(67)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'QUEUE_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(57)
+HDL-5370 WARNING: parameter 'WAIT_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(58)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(59)
+HDL-5370 WARNING: parameter 'DROP_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(60)
+HDL-5370 WARNING: parameter 'RETRANSMIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(61)
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(67)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(68)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(69)
+HDL-5370 WARNING: parameter 'OVFLOW_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../import/tx_client_fifo.v(70)
+HDL-5007 WARNING: column 1032 exceeds maximum value 1023 in ../../import/TEMAC_CORE_aead6cd6dadd.v(30)
+HDL-5007 WARNING: event expressions must result in a singular type in ../../import/TEMAC_CORE_aead6cd6dadd.v(3001)
+HDL-5007 WARNING: column 1035 exceeds maximum value 1023 in ../../import/TEMAC_CORE_aead6cd6dadd.v(6001)
+HDL-5007 WARNING: actual bit length 17 differs from formal bit length 16 for port 'wr_addr' in ../../src/app/app.v(42)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 1 for port 'beb' in ../../al_ip/ram.v(73)
+HDL-5007 WARNING: actual bit length 17 differs from formal bit length 13 for port 'addra' in ../../src/app/app.v(50)
+HDL-5007 WARNING: actual bit length 17 differs from formal bit length 13 for port 'addrb' in ../../src/app/app.v(53)
+HDL-5007 WARNING: actual bit length 17 differs from formal bit length 15 for port 'addr' in ../../src/app/app.v(71)
+HDL-5323 WARNING: input port 'sd_sec_write_data[7]' remains unconnected for this instance in ../../import/sd_card_bmp.v(63)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 6 for port 'seg_sel' in ../../import/top_integrated.v(420)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 8 for port 'seg_data' in ../../import/top_integrated.v(421)
+HDL-5007 WARNING: actual bit length 11 differs from formal bit length 13 for port 'cmos_h_pixel' in ../../import/top_integrated.v(448)
+HDL-5007 WARNING: actual bit length 11 differs from formal bit length 13 for port 'cmos_v_pixel' in ../../import/top_integrated.v(449)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 13 for port 'total_h_pixel' in ../../import/top_integrated.v(450)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 13 for port 'total_v_pixel' in ../../import/top_integrated.v(451)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in ../../import/afifo_16_32_256.v(231)
+HDL-5007 WARNING: actual bit length 9 differs from formal bit length 10 for port 'rdusedw' in ../../src/frame_read_write.v(132)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in ../../import/afifo_32_16_256.v(231)
+HDL-5007 WARNING: actual bit length 9 differs from formal bit length 10 for port 'wrusedw' in ../../src/frame_read_write.v(181)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_0' in ../../import/top_integrated.v(518)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_1' in ../../import/top_integrated.v(519)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_2' in ../../import/top_integrated.v(520)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_3' in ../../import/top_integrated.v(521)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_len' in ../../import/top_integrated.v(523)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_0' in ../../import/top_integrated.v(538)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_1' in ../../import/top_integrated.v(539)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../src/sdram/enc_file/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../src/sdram/enc_file/sdr_wrrd.enc.v(283)
+HDL-5317 WARNING: input port '**' is not connected on this instance in ../../src/sdram/enc_file/sdr_as_ram.enc.v(17)
+HDL-5007 WARNING: specify block is ignored for synthesis in ../../import/TEMAC_CORE_aead6cd6dadd.v(3840)
+HDL-5314 WARNING: net '**' does not have a driver in ../../import/TEMAC_CORE_aead6cd6dadd.v(353)
+HDL-5314 WARNING: net '**' does not have a driver in ../../import/TEMAC_CORE_aead6cd6dadd.v(9517)
+HDL-5314 WARNING: net '**' does not have a driver in ../../import/TEMAC_CORE_aead6cd6dadd.v(9520)
+HDL-5314 WARNING: net '**' does not have a driver in ../../import/TEMAC_CORE_aead6cd6dadd.v(9525)
+HDL-5314 WARNING: net '**' does not have a driver in ../../import/TEMAC_CORE_aead6cd6dadd.v(9526)
+HDL-5314 WARNING: net '**' does not have a driver in ../../import/TEMAC_CORE_aead6cd6dadd.v(9527)
+HDL-5314 WARNING: net '**' does not have a driver in ../../import/TEMAC_CORE_aead6cd6dadd.v(9528)
+HDL-5323 WARNING: input port 'mac_has_sgmii' remains unconnected for this instance in ../../import/temac_block.v(294)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../import/tx_client_fifo.v(1291)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../import/tx_client_fifo.v(1312)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../import/rx_client_fifo.v(871)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../import/rx_client_fifo.v(892)
+HDL-5314 WARNING: net 'udp_clk' does not have a driver in ../../import/top_integrated.v(81)
+HDL-5314 WARNING: net 'phy1_rgmii_rx_clk_90' does not have a driver in ../../import/top_integrated.v(90)
+HDL-5314 WARNING: net 'current_function[1]' does not have a driver in ../../import/top_integrated.v(184)
+HDL-5314 WARNING: net 'clk_50' does not have a driver in ../../import/top_integrated.v(325)
+HDL-5323 WARNING: input port 'mdio_i' remains unconnected for this instance in ../../import/top_integrated.v(630)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5106 WARNING: Initial value omitted on non-DFF net "cnt_t[4]" in ../../src/hdmi/enc_file/TMDSEncoder.enc.vhd(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "cnt_t[3]" in ../../src/hdmi/enc_file/TMDSEncoder.enc.vhd(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "cnt_t[2]" in ../../src/hdmi/enc_file/TMDSEncoder.enc.vhd(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "cnt_t[1]" in ../../src/hdmi/enc_file/TMDSEncoder.enc.vhd(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "cnt_t[0]" in ../../src/hdmi/enc_file/TMDSEncoder.enc.vhd(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "dc_bias[4]" in D:\Anlogic\TD_6.2.1_Engineer\packages/std_logic_arith.vhd(1071) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "dc_bias[3]" in D:\Anlogic\TD_6.2.1_Engineer\packages/std_logic_arith.vhd(1071) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "dc_bias[2]" in D:\Anlogic\TD_6.2.1_Engineer\packages/std_logic_arith.vhd(1071) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "dc_bias[1]" in D:\Anlogic\TD_6.2.1_Engineer\packages/std_logic_arith.vhd(1071) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "dc_bias[0]" in D:\Anlogic\TD_6.2.1_Engineer\packages/std_logic_arith.vhd(1071) 
+RUN-8008 ERROR: License expired!
