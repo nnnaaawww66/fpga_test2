@@ -1,0 +1,83 @@
+standard
+***Report Model: top_integrated Device: EG4S20BG256***
+
+IO Statistics
+#IO                        59   out of    188   31.38%
+  #input                   22
+  #output                  36
+  #inout                    1
+#virtual IO                 1
+  #input                    0
+  #output                   0
+  #inout                    0
+
+LUT Statistics
+#Total_luts               924
+  #lut4                   852
+  #lut5                    72
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Utilization Statistics
+#lut                     1562   out of  19600    7.97%
+#reg                     1378   out of  19600    7.03%
+#bram                       4   out of     64    6.25%
+  #bram9k                   4
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#dsp                        3   out of     29   10.34%
+#pad                       63   out of    188   33.51%
+  #ireg                     6
+  #oreg                    15
+  #treg                     0
+#pll                        3   out of      4   75.00%
+#gclk                       3   out of     16   18.75%
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------------------------------------------------+
+|Instance                         |Module                                            |lut     |ripple  |seq     |bram    |dsp     |
++---------------------------------------------------------------------------------------------------------------------------------+
+|top                              |top_integrated                                    |1243    |319     |1399    |4       |3       |
+|  U3                             |sdram                                             |83      |5       |421     |0       |0       |
+|    u2_ram                       |sdr_as_ram                                        |83      |5       |421     |0       |0       |
+|      u1_init_ref                |sdr_init_ref                                      |20      |5       |81      |0       |0       |
+|      u2_wrrd                    |sdr_wrrd                                          |63      |0       |340     |0       |0       |
+|  frame_read_write_m0            |frame_read_write                                  |264     |116     |247     |2       |0       |
+|    frame_fifo_read_m0           |frame_fifo_read                                   |1       |0       |2       |0       |0       |
+|    frame_fifo_write_m0          |frame_fifo_write                                  |128     |66      |57      |0       |0       |
+|    read_buf                     |rfifo_32_32_512                                   |62      |24      |94      |0       |0       |
+|      rd_to_wr_cross_inst        |fifo_cross_domain_addr_process_al_rfifo_32_32_512 |16      |0       |36      |0       |0       |
+|      wr_to_rd_cross_inst        |fifo_cross_domain_addr_process_al_rfifo_32_32_512 |16      |0       |36      |0       |0       |
+|    write_buf                    |wfifo_32_32_512                                   |73      |26      |94      |2       |0       |
+|      ram_inst                   |ram_infer_wfifo_32_32_512                         |0       |0       |0       |2       |0       |
+|      rd_to_wr_cross_inst        |fifo_cross_domain_addr_process_al_wfifo_32_32_512 |16      |0       |36      |0       |0       |
+|      wr_to_rd_cross_inst        |fifo_cross_domain_addr_process_al_wfifo_32_32_512 |16      |0       |36      |0       |0       |
+|  sd_card_bmp_m0                 |sd_card_bmp                                       |592     |130     |549     |0       |3       |
+|    ax_debounce_m0               |ax_debounce                                       |54      |9       |36      |0       |0       |
+|    bmp_read_m0                  |bmp_read                                          |280     |97      |333     |0       |3       |
+|    sd_card_top_m0               |sd_card_top                                       |258     |24      |180     |0       |0       |
+|      sd_card_cmd_m0             |sd_card_cmd                                       |134     |19      |47      |0       |0       |
+|      sd_card_sec_read_write_m0  |sd_card_sec_read_write                            |62      |0       |89      |0       |0       |
+|      spi_master_m0              |spi_master                                        |62      |5       |44      |0       |0       |
+|  sys_pll_m0                     |sys_pll                                           |0       |0       |0       |0       |0       |
+|  u0_clk_wize                    |clk_wize                                          |0       |0       |0       |0       |0       |
+|  u1_app                         |app                                               |66      |41      |21      |0       |0       |
+|    u_vga_disp_rtl               |vga_disp_rtl                                      |66      |41      |21      |0       |0       |
+|  u2_hdmi_tx                     |hdmi_tx                                           |40      |0       |59      |0       |0       |
+|    Inst_DVITransmitter          |DVITransmitter                                    |40      |0       |59      |0       |0       |
+|      Inst_TMDSEncoder_blue      |TMDSEncoder                                       |11      |0       |15      |0       |0       |
+|      Inst_blue_serializer_10_1  |Serial_N_1_lvds_dat                               |12      |0       |20      |0       |0       |
+|      Inst_clk_serializer_10_1   |Serial_N_1_lvds                                   |4       |0       |7       |0       |0       |
+|      Inst_green_serializer_10_1 |Serial_N_1_lvds_dat                               |10      |0       |14      |0       |0       |
+|      Inst_TMDSEncoder_green     |TMDSEncoder                                       |2       |0       |3       |0       |0       |
+|  u4_trimac_block                |temac_block                                       |3       |0       |4       |0       |0       |
+|    u1_rgmii_interface           |rgmii_interface                                   |1       |0       |0       |0       |0       |
+|    u_tx_clk_en_gen              |tx_clk_en_gen                                     |2       |0       |2       |0       |0       |
+|  u7_rx_fifo                     |rx_client_fifo                                    |1       |0       |0       |0       |0       |
+|  u_clk_gen                      |clk_gen_rst_gen                                   |0       |0       |0       |0       |0       |
+|    u_pll_0                      |pll_gen                                           |0       |0       |0       |0       |0       |
+|  u_ov5640_dri                   |ov5640_dri                                        |193     |27      |77      |2       |0       |
+|    u_i2c_cfg                    |i2c_ov5640_rgb565_cfg                             |30      |20      |23      |2       |0       |
+|    u_i2c_dr                     |i2c_dri                                           |163     |7       |54      |0       |0       |
++---------------------------------------------------------------------------------------------------------------------------------+

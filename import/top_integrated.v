@@ -11,7 +11,7 @@ module top_integrated(
 	// ===== 按键接口 =====
 	input                       key1,              // SD卡读取触发按键
 	input                       key2,              // 预留按键
-//input       [3:0]           dip_switch,        // 拨码开关1-4对应功能1-4
+    input       [3:0]           dip_switch,        // 拨码开关1-4对应功能1-4
 
 	// ===== 数码管接口 =====
 	//output [5:0]                seg_sel,
@@ -183,19 +183,19 @@ wire [1:0] TRI_speed;
 // ===== 模式选择信号 =====
 reg [1:0] current_function;     // 当前功能(00:功能1, 01:功能2, 10:功能3, 11:功能4)
 // 拨码开关功能选择逻辑
-//always @(posedge clk or negedge rst_n) begin
-//    if (!rst_n) begin
-//        current_function <= 2'd0; // 默认功能1
-//    end else begin
-//        case(dip_switch)
-//            4'b0001: current_function <= 2'd0; // 拨码1对应功能1
-//            4'b0010: current_function <= 2'd1; // 拨码2对应功能2
-//            4'b0100: current_function <= 2'd2; // 拨码3对应功能3
-//            4'b1000: current_function <= 2'd3; // 拨码4对应功能4
-//            default: current_function <= 2'd0; // 默认功能1
-//        endcase
-//    end
-//end
+always @(posedge clk or negedge rst_n) begin
+    if (!rst_n) begin
+        current_function <= 2'd0; // 默认功能1
+    end else begin
+        case(dip_switch)
+            4'b0001: current_function <= 2'd0; // 拨码1对应功能1
+            4'b0010: current_function <= 2'd1; // 拨码2对应功能2
+            4'b0100: current_function <= 2'd2; // 拨码3对应功能3
+            4'b1000: current_function <= 2'd3; // 拨码4对应功能4
+            default: current_function <= 2'd0; // 默认功能1
+        endcase
+    end
+end
 wire write_clk_sel;
 wire write_req_sel;
 wire write_req_ack_sel;
@@ -322,7 +322,7 @@ clk_gen_rst_gen #(
 //-----------------------------------------------------
 
 clk_wize u0_clk_wize (
-  .refclk(clk_50),
+  .refclk(clk),
   .reset(1'b0),
   .clk0_out(pixel_clk_5x),
   .clk1_out(pixel_clk   )

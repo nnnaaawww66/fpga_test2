@@ -1,23 +1,22 @@
-Location         : D:\Downloads\q3v3 _34source\q3v3 _34source\q4_Runs\syn_1
+Location         : D:\Downloads\q3v3 _34source\q3v3 _34source\q4_Runs\phy_1
 Running with     : Tang Dynasty v6.2.168116
                    Copyright (c) 2012-2025 Anlogic Inc.
 Top Model        : top_integrated
 Device           : EG4S20BG256
 Speed            : NA
 
-Timing Mode      : basic
-Setup            : WNS -5291ps  TNS  -264610ps  NUM_FEPS    83
-Hold             : WNS   471ps  TNS        0ps  NUM_FEPS     0
+Timing Mode      : final
+Setup            : WNS -6699ps  TNS  -311131ps  NUM_FEPS    89
+Hold             : WNS    70ps  TNS        0ps  NUM_FEPS     0
 
 Flow Statistics  :
 --------------------------------------------------------------------------------------------------
      command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
 --------------------------------------------------------------------------------------------------
-  optimize_rtl   |    1     |   8s(80%)   |    6(75%)     |        351        |        393        
-  optimize_gate  |    1     |   2s(20%)   |    2(25%)     |        338        |        393        
+      route      |    1     |   9s(75%)   |    10(55%)    |        590        |        590        
+      place      |    1     |   3s(25%)   |    8(44%)     |        228        |        228        
+    import_db    |    1     |   0s(0%)    |     0(0%)     |        164        |        164        
   import_device  |    1     |   0s(0%)    |     0(0%)     |        84         |        84         
-    read_adc     |    1     |   0s(0%)    |     0(0%)     |        264        |        264        
-    read_sdc     |    1     |   0s(0%)    |     0(0%)     |        265        |        265        
 --------------------------------------------------------------------------------------------------
-      total      |    5     |     10s     |       8       |        351        |        393        
+      total      |    4     |     12s     |      18       |        590        |        590        
 --------------------------------------------------------------------------------------------------
